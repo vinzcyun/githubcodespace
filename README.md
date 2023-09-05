@@ -1,4 +1,4 @@
-# •RDP trên Github Codespace
+# •RDP trên Github Codespaces
 Tạo Rdp bằng cách này Vps sẽ hoạt động dưới 50h. Vps này chủ yếu để trải nghiệm Windows không được tự ý sử dụng đem ra đào coin, treo tool. Nếu có dấu hiệu lạm dụng trong thời gian dài, trực tiếp ban khỏi Github.
 # •Lưu ý
 Khi khởi động lại, một số chức năng trong hệ thống có thể hoạt động không bình thường.
@@ -37,7 +37,7 @@ Sửa lại giao diện thêm trực quan.
 
 
 ```./cline2.sh```
-# •Cách để khởi động lại Vps khi Codespace đột ngột dừng hoạt động
+# •Cách để khởi động lại Vps khi Codespaces đột ngột dừng hoạt động
 ### Bước 1: Dán lệnh này vào và thay [token] bằng token của bạn
 ```sudo su```
 
