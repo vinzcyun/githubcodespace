@@ -16,7 +16,7 @@ Sửa lại giao diện thêm trực quan.
 # •Cách cài đặt
 ```sudo su```
 
-```wget -O cline1.sh https://raw.githubusercontent.com/VinDaiDe/githubcodespace/main/cline1.sh```
+```wget -O cline1.sh https://raw.githubusercontent.com/vinzcyun/githubcodespace/main/cline1.sh```
 
 
 ```chmod +x cline1.sh```
@@ -30,7 +30,7 @@ Sửa lại giao diện thêm trực quan.
 
 ```clear```
 
-```wget -O cline2.sh https://raw.githubusercontent.com/VinDaiDe/githubcodespace/main/cline2.sh```
+```wget -O cline2.sh https://raw.githubusercontent.com/vinzcyun/githubcodespace/main/cline2.sh```
 
 
 ```chmod +x cline2.sh```
@@ -51,7 +51,7 @@ Sửa lại giao diện thêm trực quan.
 ### Bước 3: Tạo trang mới và copy lệnh này rồi dán vào
 ```sudo su``` 
 
-```wget -O cline2.sh https://raw.githubusercontent.com/VinDaiDe/githubcodespace/main/cline2.sh```
+```wget -O cline2.sh https://raw.githubusercontent.com/vinzcyun/githubcodespace/main/cline2.sh```
 
 
 ```chmod +x cline2.sh```
