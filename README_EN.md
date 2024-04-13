@@ -1,3 +1,9 @@
+<div align="left">
+<a href="/README_EN.md">English</a> &nbsp;|&nbsp;
+<a href="/README.md">Tiếng Việt</a>
+</div>
+
+
 # RDP on Github Codespaces
 Create an RDP using this method, and the VPS will operate under 50 hours. This VPS is primarily for experiencing Windows and should not be used for mining or running tools unauthorized. If there are signs of abuse over time, you will be directly banned from Github.
 
