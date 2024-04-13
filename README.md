@@ -1,4 +1,7 @@
-<!-- vi -->
+<div align="left">
+<a href="/README_zh-CN.md">中文</a> &nbsp;|&nbsp;
+<a href="/README.md">English</a>
+</div>
 # •RDP trên Github Codespaces
 Tạo Rdp bằng cách này Vps sẽ hoạt động dưới 50h. Vps này chủ yếu để trải nghiệm Windows không được tự ý sử dụng đem ra đào coin, treo tool. Nếu có dấu hiệu lạm dụng trong thời gian dài, trực tiếp ban khỏi Github.
 # •Lưu ý
