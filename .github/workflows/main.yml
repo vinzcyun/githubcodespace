@@ -21,7 +21,7 @@ jobs:
       run: |
         ngrok authtoken 2baUJjx8LzwD6Cx0NAoqIqAbQEf_7KUC2okYkowAjvRUYJyTh
         ngrok tcp 3389 &>/dev/null &
-    - name: Resize disk image
+    - name: Thêm ổ đĩa
       run: |
         sudo qemu-img resize filegz.img 1025G
     - name: Chạy QEMU
