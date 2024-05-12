@@ -30,4 +30,8 @@ bash cline1.sh
 
 # •Cách để khởi động lại Vps khi Codespaces đột ngột dừng hoạt động
 ### Chạy file cline2.sh đã git clone từ trước
+```
+sudo su
 bash cline2.sh
+
+```
