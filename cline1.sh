@@ -7,7 +7,8 @@ curl -s https://ngrok-agent.s3.amazonaws.com/ngrok.asc | sudo tee /etc/apt/trust
 sudo apt install ngrok -y &&
 read -p "Nhập authtoken ngrok: " token && ngrok authtoken "$token" && ngrok tcp 3389 &>/dev/null &
 sudo su
-qemu-img resize filegz.img 1025G
+read -p "Nhập dung lượng ổ đĩa: " disk_size
+qemu-img resize filegz.img "$disk_size"
 qemu-system-x86_64 \
 -net nic -net user,hostfwd=tcp::3389-:3389 \
 -m 12G -smp cores=4 \
