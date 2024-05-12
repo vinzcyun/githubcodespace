@@ -20,17 +20,14 @@ Thêm chức năng có thể cài file .iso .img
 
 Sửa lại giao diện thêm trực quan.
 # •Cách cài đặt
-```sudo su```
+```
+sudo su
+git clone
+https://github.com/vinzcyun/githubcodespace.git
+bash cline1.sh
 
-```wget -O cline1.sh https://raw.githubusercontent.com/vinzcyun/githubcodespace/main/cline1.sh```
+```
 
 # •Cách để khởi động lại Vps khi Codespaces đột ngột dừng hoạt động
-
-
-```wget -O cline2.sh https://raw.githubusercontent.com/vinzcyun/githubcodespace/main/cline2.sh```
-
-
-```chmod +x cline2.sh```
-
-
-```./cline2.sh```
+### Chạy file cline2.sh đã git clone từ trước
+bash cline2.sh
