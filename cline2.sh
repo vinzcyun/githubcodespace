@@ -1,3 +1,9 @@
+sudo su
+read -p "Nhập authtoken ngrok: " token && ngrok authtoken "$token" && ngrok tcp 3389 &>/dev/null &
+sudo su
+echo "Đang khởi động lại"
+echo "Đã khởi động"
+echo "========================="
 qemu-system-x86_64 \
 -net nic -net user,hostfwd=tcp::3389-:3389 \
 -m 12G -smp cores=4 \
