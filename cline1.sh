@@ -6,4 +6,5 @@ clear
 curl -s https://ngrok-agent.s3.amazonaws.com/ngrok.asc | sudo tee /etc/apt/trusted.gpg.d/ngrok.asc >/dev/null && echo "deb https://ngrok-agent.s3.amazonaws.com buster main" | sudo tee /etc/apt/sources.list.d/ngrok.list && sudo apt update
 sudo apt install ngrok -y &&
 read -p "Nhập authtoken ngrok: " token && ngrok authtoken "$token" && ngrok tcp 3389 &>/dev/null &
-
+sudo su
+qemu-img resize filegz.img 1025G
