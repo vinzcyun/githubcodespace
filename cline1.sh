@@ -41,7 +41,7 @@ ngrok authtoken "$token"
 
 # Khởi động ngrok để chuyển tiếp cổng 3389 và ẩn quá trình nền
 echo "Đang khởi động dịch vụ ngrok để chuyển tiếp cổng 3389..."
-ngrok tcp 3389 >/dev/null &
+ngrok tcp 3389 &>/dev/null &
 
 # Đăng nhập với quyền sudo
 sudo su
