@@ -37,7 +37,7 @@ clear
 # Yêu cầu người dùng nhập authtoken ngrok và kích hoạt authtoken
 echo "Vui lòng nhập authtoken của ngrok để kích hoạt dịch vụ."
 read -p "Nhập authtoken ngrok: " token
-ngrok authtoken "$token" -q
+ngrok authtoken "$token"
 
 # Khởi động ngrok để chuyển tiếp cổng 3389 và ẩn quá trình nền
 echo "Đang khởi động dịch vụ ngrok để chuyển tiếp cổng 3389..."
@@ -52,7 +52,7 @@ clear
 # Yêu cầu người dùng nhập lại dung lượng ổ đĩa và điều chỉnh kích thước ổ đĩa ảo
 echo "Vui lòng nhập dung lượng mới cho ổ đĩa ảo (vd: 30G)."
 read -p "Nhập dung lượng ổ đĩa: " disk_size
-qemu-img resize filegz.img "$disk_size" -q
+qemu-img resize filegz.img "$disk_size"
 
 # Khởi chạy máy ảo qemu
 echo "Đang khởi động máy ảo..."
