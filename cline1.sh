@@ -41,8 +41,7 @@ ngrok authtoken "$token"
 
 # Khởi động ngrok để chuyển tiếp cổng 3389 và ẩn quá trình nền
 echo "Đang khởi động dịch vụ ngrok để chuyển tiếp cổng 3389..."
-ngrok tcp 3389 &>/dev/null 
-clear
+ngrok tcp 3389 &>/dev/null & clear
 echo "Vui lòng nhập dung lượng mới cho ổ đĩa ảo (vd: 30G)."
 read -p "Nhập dung lượng ổ đĩa: " disk_size
 qemu-img resize filegz.img "$disk_size"
