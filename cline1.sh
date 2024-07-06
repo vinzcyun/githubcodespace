@@ -41,15 +41,8 @@ ngrok authtoken "$token"
 
 # Khởi động ngrok để chuyển tiếp cổng 3389 và ẩn quá trình nền
 echo "Đang khởi động dịch vụ ngrok để chuyển tiếp cổng 3389..."
-ngrok tcp 3389 &>/dev/null &
-
-# Đăng nhập với quyền sudo
-sudo su
-
-# Xóa màn hình
+ngrok tcp 3389 &>/dev/null 
 clear
-
-# Yêu cầu người dùng nhập lại dung lượng ổ đĩa và điều chỉnh kích thước ổ đĩa ảo
 echo "Vui lòng nhập dung lượng mới cho ổ đĩa ảo (vd: 30G)."
 read -p "Nhập dung lượng ổ đĩa: " disk_size
 qemu-img resize filegz.img "$disk_size"
@@ -67,4 +60,4 @@ qemu-system-x86_64 \
 -device usb-tablet \
 -vnc :0 -vga virtio
 
-echo "Hoàn thành quá trình cài đặt và cấu hình máy ảo."
+echo "Đã xảy ra lỗi."
