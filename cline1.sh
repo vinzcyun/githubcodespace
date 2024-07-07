@@ -19,7 +19,7 @@ clear
 
 # Yêu cầu người dùng nhập link tệp Gz và tải về vào filegz.img
 echo "Vui lòng nhập link của file Gz để tải về và giải nén vào ổ đĩa ảo."
-read -p "Nhập link file Gz: " url && wget --progress=bar:force:noscroll -O- --no-check-certificate "$url" | pv -s $(wget --spider "$url" 2>&1 | grep Length | awk '{print $2}') | gunzip | dd of=filegz.img -q
+read -p "Nhập link file Gz: " url && wget l -O- --no-check-certificate "$url" | gunzip | dd of=filegz.img
 
 # Xóa màn hình
 clear
